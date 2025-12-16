@@ -1,0 +1,7 @@
+C:\Users\mamae\source\repos\TodoSolution\Todo.Core.Tests\bin\Debug\net8.0\CoverletSourceRootsMapping_Todo.Core.Tests
+C:\Users\mamae\source\repos\TodoSolution\Todo.Core.Tests\obj\Debug\net8.0\Todo.Core.Tests.csproj.AssemblyReference.cache
+C:\Users\mamae\source\repos\TodoSolution\Todo.Core.Tests\obj\Debug\net8.0\Todo.Core.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mamae\source\repos\TodoSolution\Todo.Core.Tests\obj\Debug\net8.0\Todo.Core.Tests.AssemblyInfoInputs.cache
+C:\Users\mamae\source\repos\TodoSolution\Todo.Core.Tests\obj\Debug\net8.0\Todo.Core.Tests.AssemblyInfo.cs
+C:\Users\mamae\source\repos\TodoSolution\Todo.Core.Tests\obj\Debug\net8.0\Todo.Core.Tests.csproj.CoreCompileInputs.cache
+C:\Users\mamae\source\repos\TodoSolution\Todo.Core.Tests\obj\Debug\net8.0\Todo.Core.Tests.sourcelink.json

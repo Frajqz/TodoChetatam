@@ -1,0 +1,5 @@
+C:\Users\mamae\source\repos\TodoSolution\Todo.Core\obj\Debug\net8.0\Todo.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mamae\source\repos\TodoSolution\Todo.Core\obj\Debug\net8.0\Todo.Core.AssemblyInfoInputs.cache
+C:\Users\mamae\source\repos\TodoSolution\Todo.Core\obj\Debug\net8.0\Todo.Core.AssemblyInfo.cs
+C:\Users\mamae\source\repos\TodoSolution\Todo.Core\obj\Debug\net8.0\Todo.Core.csproj.CoreCompileInputs.cache
+C:\Users\mamae\source\repos\TodoSolution\Todo.Core\obj\Debug\net8.0\Todo.Core.sourcelink.json
