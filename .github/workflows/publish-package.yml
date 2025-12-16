@@ -1,31 +1,40 @@
-name: Publish package to GitHub Packages
+name: CI / Build & Test
+
 on:
-workflow_run:
-workflows: ["CI / Build & Test"]
-types:
-- completed
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
 jobs:
-publish:
-if: ${{ github.event.workflow_run.conclusion == 'success' }}
-runs-on: ubuntu-latest
-permissions:
-contents: read
-packages: write
-steps:
-- name: Checkout
-uses: actions/checkout@v4
-- name: Setup .NET
-uses: actions/setup-dotnet@v3
-with:
-dotnet-version: '8.0.x'
-- name: Restore
-run: dotnet restore
-- name: Build (Release)
-run: dotnet build -c Release --no-restore
-- name: Pack
-run: dotnet pack Todo.Core/Todo.Core.csproj -c Release -o ./artifacts
-- name: List artifacts
-run: ls -la ./artifacts || true
-- name: Push package to GitHub Packages (NuGet)
-run: dotnet nuget push ./artifacts/*.nupkg --source "https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json"
---api-key ${{ secrets.GITHUB_TOKEN }} --skip-duplicate
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.0.x'
+    
+    - name: Cache NuGet packages
+      uses: actions/cache@v4
+      with:
+        path: ~/.nuget/packages
+        key: ${{ runner.os }}-nuget-${{ hashFiles('**/*.csproj', '**/packages.lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-nuget-
+    
+    - name: Restore
+      run: dotnet restore
+    
+    - name: Build
+      run: dotnet build --no-restore -c Release
+    
+    - name: Test
+      run: dotnet test --no-build -c Release --verbosity normal
+    
+    - name: Pack
+      run: dotnet pack Todo.Core/Todo.Core.csproj -c Release -o ./artifacts
