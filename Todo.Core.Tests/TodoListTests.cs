@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Xunit;
+using Todo.Core;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace Todo.Core.Tests
 {
     public class TodoListTests

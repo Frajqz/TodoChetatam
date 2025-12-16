@@ -6,23 +6,26 @@ using System.Threading.Tasks;
 
 namespace Todo.Core
 {
-    public class TodoItem
+    namespace Todo.Core
     {
-        public Guid Id { get; } = Guid.NewGuid();
-        public string Title { get; private set; }
-        public bool IsDone { get; private set; }
-        public TodoItem(string title)
+        public class TodoItem
         {
-            Title = title?.Trim() ?? throw new ArgumentNullException(nameof(title));
+            public Guid Id { get; } = Guid.NewGuid();
+            public string Title { get; private set; }
+            public bool IsDone { get; private set; }
+            public TodoItem(string title)
+            {
+                Title = title?.Trim() ?? throw new ArgumentNullException(nameof(title));
+            }
+            public void MarkDone() => IsDone = true;
+            public void MarkUndone() => IsDone = false;
+            public void Rename(string newTitle)
+            {
+                if (string.IsNullOrWhiteSpace(newTitle)) throw new ArgumentException("Title required", nameof(newTitle));
+
+                Title = newTitle.Trim();
+            }
         }
-        public void MarkDone() => IsDone = true;
-        public void MarkUndone() => IsDone = false;
-        public void Rename(string newTitle)
-        {
-            if (string.IsNullOrWhiteSpace(newTitle)) throw new ArgumentException("Titlerequired", nameof(newTitle));
-           
-            Title = newTitle.Trim();
-        }
+
     }
 }
-

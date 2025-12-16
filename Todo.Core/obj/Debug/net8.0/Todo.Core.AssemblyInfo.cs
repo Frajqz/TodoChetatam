@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Simple Todo core library (for practice)")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.1.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.0+76a76d9e259b1d7eec9f36c212592da192259bfd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.0+f7607fa532671d837672bd2881ba5d8906a5739c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Todo.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Todo.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.1.0.0")]
