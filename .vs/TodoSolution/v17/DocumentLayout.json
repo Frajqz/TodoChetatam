@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\mamae\\source\\repos\\TodoSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FC791C5A-26DD-46B5-8DDE-33B6ECD794ED}|Todo.Core.Tests\\Todo.Core.Tests.csproj|c:\\users\\mamae\\source\\repos\\todosolution\\todo.core.tests\\todolisttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC791C5A-26DD-46B5-8DDE-33B6ECD794ED}|Todo.Core.Tests\\Todo.Core.Tests.csproj|solutionrelative:todo.core.tests\\todolisttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3B2E3301-7F80-4DC4-B2BD-E4F01B5BA853}|Todo.Core\\Todo.Core.csproj|c:\\users\\mamae\\source\\repos\\todosolution\\todo.core\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B2E3301-7F80-4DC4-B2BD-E4F01B5BA853}|Todo.Core\\Todo.Core.csproj|solutionrelative:todo.core\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC791C5A-26DD-46B5-8DDE-33B6ECD794ED}|Todo.Core.Tests\\Todo.Core.Tests.csproj|c:\\users\\mamae\\source\\repos\\todosolution\\todo.core.tests\\todolisttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC791C5A-26DD-46B5-8DDE-33B6ECD794ED}|Todo.Core.Tests\\Todo.Core.Tests.csproj|solutionrelative:todo.core.tests\\todolisttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B2E3301-7F80-4DC4-B2BD-E4F01B5BA853}|Todo.Core\\Todo.Core.csproj|c:\\users\\mamae\\source\\repos\\todosolution\\todo.core\\todolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,8 +70,7 @@
               "RelativeToolTip": "Todo.Core.Tests\\TodoListJsonTests.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T09:29:18.055Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-16T09:29:18.055Z"
             },
             {
               "$type": "Document",
@@ -83,12 +82,11 @@
               "RelativeToolTip": "Todo.Core\\Todo.Core.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-11T04:47:11.578Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T04:47:11.578Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TodoListTests.cs",
               "DocumentMoniker": "C:\\Users\\mamae\\source\\repos\\TodoSolution\\Todo.Core.Tests\\TodoListTests.cs",
               "RelativeDocumentMoniker": "Todo.Core.Tests\\TodoListTests.cs",
@@ -109,8 +107,7 @@
               "RelativeToolTip": "Todo.Core.Tests\\Todo.Core.Tests.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-11T04:48:52.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T04:48:52.232Z"
             },
             {
               "$type": "Document",
@@ -122,12 +119,11 @@
               "RelativeToolTip": "Todo.Core\\TodoList.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T04:47:59.673Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T04:47:59.673Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "TodoItem.cs",
               "DocumentMoniker": "C:\\Users\\mamae\\source\\repos\\TodoSolution\\Todo.Core\\TodoItem.cs",
               "RelativeDocumentMoniker": "Todo.Core\\TodoItem.cs",
