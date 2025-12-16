@@ -19,8 +19,7 @@ namespace Todo.Core
         public void MarkUndone() => IsDone = false;
         public void Rename(string newTitle)
         {
-            if (string.IsNullOrWhiteSpace(newTitle)) throw new ArgumentException("Title
-           required", nameof(newTitle));
+            if (string.IsNullOrWhiteSpace(newTitle)) throw new ArgumentException("Titlerequired", nameof(newTitle));
            
             Title = newTitle.Trim();
         }

@@ -3,3 +3,10 @@ C:\Users\mamae\source\repos\TodoSolution\Todo.Core\obj\Debug\net8.0\Todo.Core.As
 C:\Users\mamae\source\repos\TodoSolution\Todo.Core\obj\Debug\net8.0\Todo.Core.AssemblyInfo.cs
 C:\Users\mamae\source\repos\TodoSolution\Todo.Core\obj\Debug\net8.0\Todo.Core.csproj.CoreCompileInputs.cache
 C:\Users\mamae\source\repos\TodoSolution\Todo.Core\obj\Debug\net8.0\Todo.Core.sourcelink.json
+C:\Users\mamae\source\repos\TodoSolution\Todo.Core\bin\Debug\net8.0\Todo.Core.deps.json
+C:\Users\mamae\source\repos\TodoSolution\Todo.Core\bin\Debug\net8.0\Todo.Core.dll
+C:\Users\mamae\source\repos\TodoSolution\Todo.Core\bin\Debug\net8.0\Todo.Core.pdb
+C:\Users\mamae\source\repos\TodoSolution\Todo.Core\obj\Debug\net8.0\Todo.Core.dll
+C:\Users\mamae\source\repos\TodoSolution\Todo.Core\obj\Debug\net8.0\refint\Todo.Core.dll
+C:\Users\mamae\source\repos\TodoSolution\Todo.Core\obj\Debug\net8.0\Todo.Core.pdb
+C:\Users\mamae\source\repos\TodoSolution\Todo.Core\obj\Debug\net8.0\ref\Todo.Core.dll

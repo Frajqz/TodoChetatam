@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\mamae\\source\\repos\\TodoSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FC791C5A-26DD-46B5-8DDE-33B6ECD794ED}|Todo.Core.Tests\\Todo.Core.Tests.csproj|c:\\users\\mamae\\source\\repos\\todosolution\\todo.core.tests\\todolistjsontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC791C5A-26DD-46B5-8DDE-33B6ECD794ED}|Todo.Core.Tests\\Todo.Core.Tests.csproj|solutionrelative:todo.core.tests\\todolistjsontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FC791C5A-26DD-46B5-8DDE-33B6ECD794ED}|Todo.Core.Tests\\Todo.Core.Tests.csproj|c:\\users\\mamae\\source\\repos\\todosolution\\todo.core.tests\\todolisttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC791C5A-26DD-46B5-8DDE-33B6ECD794ED}|Todo.Core.Tests\\Todo.Core.Tests.csproj|solutionrelative:todo.core.tests\\todolisttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B2E3301-7F80-4DC4-B2BD-E4F01B5BA853}|Todo.Core\\Todo.Core.csproj|c:\\users\\mamae\\source\\repos\\todosolution\\todo.core\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B2E3301-7F80-4DC4-B2BD-E4F01B5BA853}|Todo.Core\\Todo.Core.csproj|solutionrelative:todo.core\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B2E3301-7F80-4DC4-B2BD-E4F01B5BA853}|Todo.Core\\Todo.Core.csproj|c:\\users\\mamae\\source\\repos\\todosolution\\todo.core\\todolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,8 +19,8 @@
       "RelativeMoniker": "D:0:0:{FC791C5A-26DD-46B5-8DDE-33B6ECD794ED}|Todo.Core.Tests\\Todo.Core.Tests.csproj|solutionrelative:todo.core.tests\\todo.core.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B2E3301-7F80-4DC4-B2BD-E4F01B5BA853}|Todo.Core\\Todo.Core.csproj|c:\\users\\mamae\\source\\repos\\todosolution\\todo.core\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B2E3301-7F80-4DC4-B2BD-E4F01B5BA853}|Todo.Core\\Todo.Core.csproj|solutionrelative:todo.core\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC791C5A-26DD-46B5-8DDE-33B6ECD794ED}|Todo.Core.Tests\\Todo.Core.Tests.csproj|c:\\users\\mamae\\source\\repos\\todosolution\\todo.core.tests\\todolistjsontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC791C5A-26DD-46B5-8DDE-33B6ECD794ED}|Todo.Core.Tests\\Todo.Core.Tests.csproj|solutionrelative:todo.core.tests\\todolistjsontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B2E3301-7F80-4DC4-B2BD-E4F01B5BA853}|Todo.Core\\Todo.Core.csproj|c:\\users\\mamae\\source\\repos\\todosolution\\todo.core\\todo.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,14 +49,26 @@
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "TodoListJsonTests.cs",
               "DocumentMoniker": "C:\\Users\\mamae\\source\\repos\\TodoSolution\\Todo.Core.Tests\\TodoListJsonTests.cs",
               "RelativeDocumentMoniker": "Todo.Core.Tests\\TodoListJsonTests.cs",
               "ToolTip": "C:\\Users\\mamae\\source\\repos\\TodoSolution\\Todo.Core.Tests\\TodoListJsonTests.cs",
               "RelativeToolTip": "Todo.Core.Tests\\TodoListJsonTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-16T09:29:18.055Z",
               "EditorCaption": ""
@@ -71,11 +83,12 @@
               "RelativeToolTip": "Todo.Core\\Todo.Core.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-11T04:47:11.578Z"
+              "WhenOpened": "2025-12-11T04:47:11.578Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "TodoListTests.cs",
               "DocumentMoniker": "C:\\Users\\mamae\\source\\repos\\TodoSolution\\Todo.Core.Tests\\TodoListTests.cs",
               "RelativeDocumentMoniker": "Todo.Core.Tests\\TodoListTests.cs",
@@ -83,7 +96,8 @@
               "RelativeToolTip": "Todo.Core.Tests\\TodoListTests.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T04:49:16.944Z"
+              "WhenOpened": "2025-12-11T04:49:16.944Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -95,7 +109,8 @@
               "RelativeToolTip": "Todo.Core.Tests\\Todo.Core.Tests.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-11T04:48:52.232Z"
+              "WhenOpened": "2025-12-11T04:48:52.232Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -107,31 +122,21 @@
               "RelativeToolTip": "Todo.Core\\TodoList.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T04:47:59.673Z"
+              "WhenOpened": "2025-12-11T04:47:59.673Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "TodoItem.cs",
               "DocumentMoniker": "C:\\Users\\mamae\\source\\repos\\TodoSolution\\Todo.Core\\TodoItem.cs",
               "RelativeDocumentMoniker": "Todo.Core\\TodoItem.cs",
-              "ToolTip": "C:\\Users\\mamae\\source\\repos\\TodoSolution\\Todo.Core\\TodoItem.cs",
-              "RelativeToolTip": "Todo.Core\\TodoItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\mamae\\source\\repos\\TodoSolution\\Todo.Core\\TodoItem.cs*",
+              "RelativeToolTip": "Todo.Core\\TodoItem.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T04:47:37.52Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "WhenOpened": "2025-12-11T04:47:37.52Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
